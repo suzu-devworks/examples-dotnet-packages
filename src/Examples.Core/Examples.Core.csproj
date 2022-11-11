@@ -6,4 +6,20 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <!-- Properties related to NuGet packaging: -->
+    <IsPackable>True</IsPackable>
+    <PackageId>SuzuDevworks.Examples.Core</PackageId>
+    <Authors>akira suzuki</Authors>
+    <Company>suzu-devworks</Company>
+    <Version>1.0.0-alpha</Version>
+    <Product>SuzuDevworks.Examples.local</Product>
+    <RepositoryUrl>https://github.com/suzu-devworks/examples-dotnet-packages</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/suzu-devworks/examples-dotnet-packages</PackageProjectUrl>
+    <PackageTags>local;learning</PackageTags>
+    <Description>
+      SuzuDevworks.Examples.Core is Libraries for learning dotnet programming.
+    </Description>
+  </PropertyGroup>
+
 </Project>

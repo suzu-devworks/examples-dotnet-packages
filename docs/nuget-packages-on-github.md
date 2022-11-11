@@ -8,16 +8,16 @@
   <PropertyGroup>
     <!-- Properties related to NuGet packaging: -->
     <IsPackable>True</IsPackable>
-    <PackageId>SuzuDevWorks.Examples.Core</PackageId>
+    <PackageId>SuzuDevworks.Examples.Core</PackageId>
     <Authors>akira suzuki</Authors>
     <Company>suzu-devworks</Company>
     <Version>1.0.0-alpha</Version>
-    <Product>SuzuDevWorks.Examples.local</Product>
-    <RepositoryUrl>https://github.com/suzu-devworks/examples-dotnet</RepositoryUrl>
-    <PackageProjectUrl>https://github.com/suzu-devworks/examples-dotnet</PackageProjectUrl>
+    <Product>SuzuDevworks.Examples.local</Product>
+    <RepositoryUrl>https://github.com/suzu-devworks/examples-dotnet-packages</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/suzu-devworks/examples-dotnet-packages</PackageProjectUrl>
     <PackageTags>local;learning</PackageTags>
     <Description>
-      SuzuDevWorks.Examples.Core is Libraries for learning dotnet programming.
+      SuzuDevworks.Examples.Core is Libraries for learning dotnet programming.
     </Description>
   </PropertyGroup>
 ```

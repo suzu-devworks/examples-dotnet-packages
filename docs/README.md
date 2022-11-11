@@ -18,8 +18,9 @@ dotnet sln add src/Examples.Core/
 
 ## Examples.Xunit
 dotnet new classlib -o src/Examples.Xunit
+
 cd src/Examples.Xunit
-dotnet add package Xunit
+dotnet add package xunit
 cd ../../
 dotnet sln add src/Examples.Xunit/
 
