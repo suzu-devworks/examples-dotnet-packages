@@ -25,7 +25,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Examples.Core\Examples.Core.csproj" />
-    <ProjectReference Include="..\Examples.Xunit\Examples.Xunit.csproj" />
   </ItemGroup>
 
 </Project>

@@ -16,18 +16,9 @@ cd src/Examples.Core
 cd ../../
 dotnet sln add src/Examples.Core/
 
-## Examples.Xunit
-dotnet new classlib -o src/Examples.Xunit
-
-cd src/Examples.Xunit
-dotnet add package xunit
-cd ../../
-dotnet sln add src/Examples.Xunit/
-
 ## Examples.Core.Tests
 dotnet new xunit -o src/Examples.Core.Tests
 dotnet add src/Examples.Core.Tests/ reference src/Examples.Core
-dotnet add src/Examples.Core.Tests/ reference src/Examples.Xunit
 cd src/Examples.Core.Tests
 dotnet add package Moq
 dotnet add package ChainingAssertion.Core.Xunit
