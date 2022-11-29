@@ -34,6 +34,14 @@ dotnet add package ChainingAssertion.Core.Xunit
 cd ../../
 dotnet sln add src/Examples.Core.Tests/
 
+## Examples.DependencyInjection
+dotnet new classlib -o src/Examples.DependencyInjection
+cd src/Examples.DependencyInjection
+dotnet add package Microsoft.Extensions.DependencyInjection
+dotnet add package Microsoft.Extensions.Logging.Abstractions
+cd ../../
+dotnet sln add src/Examples.DependencyInjection/
+
 dotnet build
 
 # Update outdated package
